@@ -78,7 +78,15 @@ body {
 
         .button {
           background-color: blueviolet;
-          
+          border: none;
+          width: 15%;
+          height: 30px;
+          color: white;
+          padding: 7px, 30px, 8px;
+          border-radius: 4px;
+          text-align: center;
+          font-size: 16px;
+          display: inline-block;
 
         }
     
