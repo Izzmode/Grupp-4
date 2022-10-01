@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Number</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<div class="wrapper">
+    <h1 class="header1">Välkommen Nostradamus</h1>
+    <h2 class="header2">Klarar du av att gissa rätt nummer på första försöket?</h2>
+    <p>Skriv in vilket nummer du vill mellan 1-100 för att testa din gåva. <br>
+        Hur många gissningar tror du att du klarar det på? </p>
+
+    <!-- I denna p-tagg skrivs det ut för användaren om den ska gissa högre, lägre eller om det var rätt -->
+    <p id="test"></p>
+
+    <!-- Här skriver användaren in siffran -->
+    <form id="form">
+        <input type="number" min="1" 0 max="100" id="numberGuessed" placeholder="Skriv ditt nummer här" required/>
+        <input type="submit" id="myButton" onclick="getValue();" value="Testa din gåva">
+
+    </form>
+    <img src="Tarot.jpg">
+</div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
