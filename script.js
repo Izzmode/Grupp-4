@@ -31,10 +31,11 @@ function getValue(){
     
 
 
-let button = "reset-form";
+let = "resetForm";
 const reset = function() {
 
 console.log("Spela igen");
+input.addEventListener("click", resetForm)();
 
 document.getElementById("form").reset();
 };
