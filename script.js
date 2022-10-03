@@ -26,7 +26,14 @@ function getValue(){
     }
     else{
         text = 'Nu blev något knasigt, testa igen';
-    }
-    
+    }   
 }
+button.addEventListener('reset', function(event){
+    document.getElementById("button").onclick = "newForm";
+}
+)
 
+function newFunction(){
+    document.getElementById("newForm").resetForm();
+
+}
