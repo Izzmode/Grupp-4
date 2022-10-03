@@ -28,12 +28,16 @@ function getValue(){
         text = 'Nu blev något knasigt, testa igen';
     }   
 }
-button.addEventListener('reset', function(event){
-    document.getElementById("button").onclick = "newForm";
-}
-)
+    
 
-function newFunction(){
-    document.getElementById("newForm").resetForm();
 
-}
+let button = "reset-form";
+const reset = function() {
+
+console.log("Spela igen");
+
+document.getElementById("form").reset();
+};
+
+
+ 
