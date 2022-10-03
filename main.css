@@ -82,11 +82,12 @@ body {
           width: 15%;
           height: 30px;
           color: white;
-          padding: 7px, 30px, 8px;
+          padding: 7px, 30px, 30px;
           border-radius: 4px;
           text-align: center;
+          line-height: 30px;
           font-size: 16px;
           display: inline-block;
-
+          font-family: serif;
         }
     
