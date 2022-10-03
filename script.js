@@ -31,8 +31,8 @@ function getValue(){
     
 
 
-let = "resetForm";
-const reset = function() {
+
+const resetForm = function() {
 
 console.log("Spela igen");
 input.addEventListener("click", resetForm)();
