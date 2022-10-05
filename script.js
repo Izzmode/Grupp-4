@@ -32,6 +32,8 @@ function getValue(){
 
 function resetForm(){
     document.getElementById('form').reset();
+    //console.clear(resetForm);
+   // document.randomNumber = Math.ceil(Math.random()*100) 
 }
 
 const button = document.querySelector('#btn')
