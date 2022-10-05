@@ -30,15 +30,28 @@ function getValue(){
 }
     
 
+function resetForm(){
+    document.getElementById('form').reset();
+}
 
+const button = document.querySelector('#btn')
 
-const resetForm = function() {
+const clickHandler = () => {}
 
-console.log("Spela igen");
-input.addEventListener("click", resetForm)();
+button.addEventListener('click', () => {
+    
 
-document.getElementById("form").reset();
-};
+    console.log('click')
+    
+})
+
+// function() {
+
+// console.log("Spela igen");
+// input.addEventListener("click", resetForm)();
+
+// document.getElementById("form").reset();
+// };
 
 
  
