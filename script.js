@@ -40,4 +40,4 @@ function resetGame() {
 
 const button = document.querySelector("#btn");
 
-button.addEventListener("click", resetGame);
+button.addEventListener("click", resetGame() );
