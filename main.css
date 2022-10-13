@@ -59,7 +59,7 @@ img {
   border: 1px solid grey;
   border-radius: 4px;
 }
-#myButton {
+#myButton, #btn {
   background-color: blueviolet;
   border: none;
   color: white;
