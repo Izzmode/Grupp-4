@@ -1,78 +1,76 @@
 body {
-    background-image: url("Clouds.jpg");
-    font-family: sans-serif;
-    padding: 20px;
-  }
-  h1 {
-    font-size: 40px;
-    margin-top: 0;
-    margin-bottom: 15px;
-  }
-  h2 {
-    font-size: 30px;
-  }
-  h1, h2, p form{
-    text-align: center;
-  }
-  .header1, .header2 {
-    font-family: fantasy;
-    
-  }
-  p {
-    display: inline-block;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    font-size: 18px;
-    width: 100%;
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
-  form {
-    display: inline-block;
-    width: 100%;
-    text-align: center;
-  }
-  .wrapper {
-    width: 75%;
-    background-color: palevioletred;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px;
-    opacity: 0.8;
-    height: 800px;
-    
-  }
+  background-image: url("Clouds.jpg");
+  font-family: sans-serif;
+  padding: 20px;
+}
+h1 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+h2 {
+  font-size: 30px;
+}
+h1,
+h2,
+p form {
+  text-align: center;
+}
+.header1,
+.header2 {
+  font-family: fantasy;
+}
+p {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+  width: 100%;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+form {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+.wrapper {
+  width: 75%;
+  background-color: palevioletred;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  opacity: 0.8;
+  height: 800px;
+}
 
-    img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-        opacity: 0.9;
-        padding-top: 20px;
-      }
-  
-    
-    #numberGuessed{
-        width: 30%;
-        padding: 8px;
-        border: 1px solid grey;
-        border-radius: 4px;
-    }
-    #myButton{
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  opacity: 0.9;
+  padding-top: 20px;
+}
 
-        background-color: blueviolet;
-        border: none;
-        color: white;
-        padding: 7px 30px 8px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        border-radius: 4px;
-        }
-        #test{
-            font-size: small;
-            font-style: italic;
-        }
-    
+#numberGuessed {
+  width: 30%;
+  padding: 8px;
+  border: 1px solid grey;
+  border-radius: 4px;
+}
+#myButton {
+  background-color: blueviolet;
+  border: none;
+  color: white;
+  padding: 7px 30px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+}
+#test {
+  font-size: small;
+  font-style: italic;
+}
