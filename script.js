@@ -28,3 +28,19 @@ function getValue() {
     test = "Nu blev något knasigt, testa igen";
   }
 }
+
+const button = document.querySelector("#btn");
+
+const clickHandler = () => {};
+
+button.addEventListener("click", () => {
+  console.log("click");
+});
+
+// function() {
+
+// console.log("Spela igen");
+// input.addEventListener("click", resetForm)();
+
+// document.getElementById("form").reset();
+// };
