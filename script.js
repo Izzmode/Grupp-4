@@ -32,8 +32,7 @@ function getValue(){
 
 function resetForm(){
     document.getElementById('form').reset();
-    //console.clear(resetForm);
-   // document.randomNumber = Math.ceil(Math.random()*100) 
+   
 }
 
 const button = document.querySelector('#btn')
@@ -46,14 +45,5 @@ button.addEventListener('click', () => {
     console.log('click')
     
 })
-
-// function() {
-
-// console.log("Spela igen");
-// input.addEventListener("click", resetForm)();
-
-// document.getElementById("form").reset();
-// };
-
 
  
