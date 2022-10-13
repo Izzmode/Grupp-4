@@ -9,10 +9,11 @@ form.addEventListener("submit", function (event) {
 const randomNumber = Math.ceil(Math.random() * 100);
 // console.log(randomNumber);
 let guessCount = 0;
+// behöver sätta guessCount tillbaks till 0 i resetfunktionen
 
 function getValue() {
   const numberGuessed = Number(document.getElementById("numberGuessed").value);
-  guessCount++;
+  guessCount++; //inkrementerar vid varje submit
   if (randomNumber == numberGuessed) {
     test.textContent = `Det var skrivet i stjärnorna att du skulle gissa rätt! Antal försök: ${guessCount}`;
     console.log("Rätt");
