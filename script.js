@@ -4,28 +4,26 @@ const test = document.querySelector("#test");
 
 form.addEventListener("submit", function (event) {
   event.preventDefault();
+  getValue()
 });
 
-const randomNumber = Math.ceil(Math.random() * 100);
-// console.log(randomNumber);
-let guessCount = 0;
-// behöver sätta guessCount tillbaks till 0 i resetfunktionen
-
-const randomNumber = Math.ceil(Math.random() * 100);
+let randomNumber = Math.ceil(Math.random() * 100);
 console.log(randomNumber);
+let guessCount = 0;
 
 function getValue() {
   const numberGuessed = document.getElementById("numberGuessed").value;
+  guessCount++;
   if (randomNumber == numberGuessed) {
-    document.getElementById("test").innerHTML =
-      "Det var skrivet i stjärnorna att du skulle gissa rätt!";
+    test.textContent =
+      `Det var skrivet i stjärnorna att du skulle gissa rätt! Antal försök ${guessCount}`;
     console.log("Rätt");
   } else if (randomNumber < numberGuessed) {
-    document.getElementById("test").innerHTML =
+    test.textContent =
       "Den som siktar mot månen hamnar bland sjärnorna...gissa lägre!";
     console.log("lägre");
   } else if (randomNumber > numberGuessed) {
-    document.getElementById("test").innerHTML =
+    test.textContent =
       "Venus står i retrograd, gissa högre!";
     console.log("högre");
   } else {
@@ -33,24 +31,13 @@ function getValue() {
   }
 }
 
-function resetForm() {
-  document.getElementById("form").reset();
-  //console.clear(resetForm);
-  // document.randomNumber = Math.ceil(Math.random()*100)
+function resetGame() {
+  form.reset();
+  guessCount = 0;
+  randomNumber = Math.ceil(Math.random() * 100)
+  test.textContent = ""
 }
 
 const button = document.querySelector("#btn");
 
-const clickHandler = () => {};
-
-button.addEventListener("click", () => {
-  console.log("click");
-});
-
-// function() {
-
-// console.log("Spela igen");
-// input.addEventListener("click", resetForm)();
-
-// document.getElementById("form").reset();
-// };
+button.addEventListener("click", resetGame);
