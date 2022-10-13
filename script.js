@@ -31,6 +31,7 @@ function getValue() {
 
 function resetGame() {
   form.reset();
+  console.clear();
   guessCount = 0;
   randomNumber = Math.ceil(Math.random() * 100);
   console.log(randomNumber);
